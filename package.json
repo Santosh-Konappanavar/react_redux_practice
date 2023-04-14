@@ -2,6 +2,7 @@
   "name": "redux-toolkit-tutorial",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Santosh-Konappanavar.github.io/bookstoreUsing-react",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
     "@testing-library/jest-dom": "^5.16.5",
@@ -18,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -40,7 +42,9 @@
   },
   "description": "#### React Course",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
   "author": "",
   "license": "ISC"
 }
